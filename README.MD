@@ -8,7 +8,7 @@
 
 This is my personal project performed to show my current skills. 
 
-![Motorbikes](../motorbikes.png)
+![Motorbikes] (../motorbikes.png)
 Site publicked at https://dkeparute.github.io/Internship-js/
 
 ## Objectives
