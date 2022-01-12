@@ -1,0 +1,83 @@
+html {
+    background-image: url(https://i.pinimg.com/originals/dd/46/3e/dd463ecea18dfec85851cf5e996eb770.jpg);
+    background-size: cover;
+    min-height: 100vh;
+}
+
+body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* see all motorbikes */
+
+h1 {
+    display: block;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 50px;
+    margin: 30px;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    font-size: 15px;
+    color: white;
+    font-weight: 400;
+    text-transform: uppercase;
+    border: 5px solid rgb(125, 24, 226);
+    border-radius: 5rem;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: black;
+    width: 100%;
+}
+
+button:hover {
+    color: rgb(255, 255, 255);
+    border-color: black;
+    background: linear-gradient(to right, rgb(125, 24, 226) 0%, rgb(0, 0, 0) 100%);
+    cursor: pointer;
+    transition: 2s;
+}
+
+ul {
+    background: linear-gradient(to right, rgb(125, 24, 226) 0%, rgb(0, 0, 0) 100%);
+    border-radius: 2rem;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+b {
+    color: aliceblue;
+    width: 35rem;
+}
+
+b:hover {
+    font-size: 20px;
+    cursor: pointer;
+    transition: 2s;
+}
